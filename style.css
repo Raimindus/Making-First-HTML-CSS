@@ -1,0 +1,258 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1800px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 500px;
+    float: left;
+    font-family: courier;
+    color: #97DBAE;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #97DBAE;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #97DBAE;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tombol-biru {
+    background: #0548ff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol-biru:hover {
+    background: #21ff04;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: 0.25em;
+}
+
+a.tombol-pink {
+    background: #8E3200;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol-pink:hover {
+    background: #97DBAE;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.List-Makanan {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Menu-Pertama {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Menu-Pertama img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.Menu-Pertama p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #8E3200;
+}
+
+.Jam-Tidur {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tidur-Pertama {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Tidur-Pertama img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#Contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 30;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #8E3200;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin: 50px;
+}
+
+@media screen and (max-width : 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav.menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 120%;
+        height: auto;
+    }
+
+    .Menu-Pertama {
+        width: 50%;
+    }
+
+    .Tidur-Pertama {
+        width: 50%;
+    }
+}
